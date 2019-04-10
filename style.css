@@ -2,6 +2,9 @@ body{
     margin: 0;
     display: grid;
     grid-template-areas: 'header header header header' 'nav nav nav nav' 'section section section aside' 'footer footer footer footer';
+    grid-template-rows: 20vh 5vh 50vh 30vh;
+    grid-gap: 10px;
+    background-color: darkslategrey;
 }
 
 header{
@@ -27,5 +30,5 @@ aside{
 
 footer{
     grid-area: footer;
-    background-color: magenta;
+    background-color: darkmagenta;
 }
